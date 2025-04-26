@@ -3,7 +3,9 @@
 
     src: url("font/SegUIVar.woff2") format("woff2");
 }
-
+*{
+    box-sizing: border-box;
+}
 html{
     box-sizing: border-box;
     font-family: 'segoeuiVar';
@@ -23,7 +25,6 @@ body{
 
 #background{
     position: absolute;
-    width: 100vw;
     background-image: url("img/lauracraft.jpg");
     background-size:cover;
     opacity:0.5;
@@ -124,7 +125,7 @@ button:hover{
 #deployedmenu span{
     position:absolute;
    top:14vh;
-   left:95vw;
+   left:90vw;
 }
 
 #deployedmenu section{
@@ -259,7 +260,6 @@ footer span {
 main section{
     display: flex;
     color:white;
-    width: 100vw;
     font-size:4em;
     align-items: center;
     justify-content: center;

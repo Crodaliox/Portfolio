@@ -296,15 +296,13 @@ main section div{
     font-size: 1.2em;
 }
 
-#lauracraft{
+#mons{
     display:block;
 }
 
-#AI{
-    display: block;
-}
 
-#vdi, #creathon, #carimersive, #other{
+
+#carimersive, #windingpath,#mons,#lauracraft, #vdi, #creathon,#AI, #other{
     display: none;
 }
 #contactindex{
