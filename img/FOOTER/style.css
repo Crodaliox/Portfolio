@@ -1,0 +1,166 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	font-family: Century gothic, Elephant, Matura MT Script Capitals, Comic Sans MS;
+	background-image:url("fond7.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+h1 {
+  color: white;
+}
+
+nav{
+	width:80%;
+	position: fixed;
+	top: 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	border: 5px ridge;
+	border-color: #870000;
+	border-top: white;
+	left:10%;
+	border-radius: 60px;
+	background-color: black;
+	font-size: 100%;
+}
+
+nav li{
+color:#870000;
+display:inline-block;
+	
+}
+
+nav a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover, a:active {
+	color: red;
+  text-decoration: none;
+}
+
+nav img{
+	width: 50px;
+}
+
+.imgnavgauche{
+	float:left;
+	margin-left: 20px;
+}
+.imgnavdroite{
+	float:right;
+	margin-right: 20px;
+}
+header{
+	margin-top:10%;
+	text-align:center;
+}
+
+
+#titre{
+	text-align:right;
+	font-size: 200%;
+	color: red;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#imageheader{
+	padding-left:25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header h1{
+	padding-bottom:50px;
+}
+
+header h2{
+	font-size:1em;
+}
+
+header img{
+	width: 700px;
+	border: solid 2px #870000;
+}
+
+section{
+	margin-top:10%;
+	margin-left:10%;
+	margin-right:10%;
+	background-color: black;
+	color:white;
+	border:solid 2px #870000
+}
+section h1{
+	text-align:center;
+	padding:20px;
+}
+
+section p{
+	text-align: justify;
+	margin-bottom:30px;
+	padding:10px 20px 10px 20px;
+}
+
+section span{
+	color:red;
+}
+
+.presentationdernier{
+	text-align:right;
+	margin-right: 150px;
+	text-decoration:underline;
+	font-family: Berlin Sans Fb, comics sans ms;
+	font-size:2em;
+}
+
+footer {
+	margin-top:100px;
+	height:100px;
+	background-color: #870000;
+	padding-left:30px;
+}
+
+footer ul li img{
+	height:30px;
+}
+
+footer ul li{
+	display:inline-block;
+	opacity:0.7;
+	padding-top:35px;
+	padding-left:20px;
+}
+
+footer ul p {
+	color:white;
+	float:right;
+	padding-top:40px;
+	padding-right:8%;
+	text-align:right;
+}
+
+footer li:hover, a:active {
+	opacity:1;
+  text-decoration: none;
+} 
+  a:link, a:visited {
+  text-decoration: none;
+}
+a:hover, a:active {
+  text-decoration: none;
+}
+  
+  
+  
+  
+  

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Portfolio of Etienne Julien, a final-year engineering student at INSA Hauts-de-France, specializing in Audiovisual and Multimedia. This portfolio contains detailed information about me, along with a variety of projects and productions I have completed during my studies in DUT MMI and engineering school. The site includes sections on my background, skills, education, and creations. You can also contact me by filling out the form on the contact page. This portfolio has been online since November 2021, built using HTML5, CSS3, JavaScript, jQuery, and PHP, and is updated regularly.">
+    
+    <meta name="keywords" content="Etienne Julien, Etienne, Julien, Portfolio, INSA, National Institute of Applied Sciences, Audiovisual, Mmi, multimedia and internet professions, DUT, diplôme universitaire technologique, University of Rouen, engineering, software engineering, audiovisual system, web development, graphic design, graphic artist, audiovisual, project management, 3d, modeling">
+    
+    <meta http-equiv="content-language" content="fr">
+    
+    <title>Etienne JULIEN - Infitems</title>
+    
+    <link href="bootstrap-4.6.0-dist/css/bootstrap.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../projects.css" type="text/css" media="all">
+    
+    <link rel="shortcut icon" type="image/png" href="../img/icon.png">
+    
+    <!-- pour les icons (vu sur w3school)-->
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    
+<body>
+    <div id="deployedmenu">
+        <span class="material-symbols-outlined">
+            close
+        </span>
+
+        <section>
+        <aside>
+            <a href="../index.html"><h2>HOME</h2></a>
+            <a href="../projects.html"><h2>PROJECTS</h2></a>
+            <a href="../pdf/CV Etienne Julien link.pdf" target="blank"><h2>RESUME</h2></a>
+            <a href="../contact.php" target="blank"><h2>CONTACT</h2></a>
+        </aside>
+        <article>
+            <h2>Contact</h2>
+            <p>Mail : <a href="mailto:etienne.julien@uphf.fr" target="_blank">etienne.julien@uphf.fr</a></p>
+            <p>Linkedin : <a href="https://www.linkedin.com/in/etiennejulien/" target="_blank">https://www.linkedin.com/in/etiennejulien/</a></p>
+        </article>
+    </section>
+    </div>
+
+    <header>
+    
+        <section>
+            <div>
+                <h1>ETIENNE JULIEN - PORTFOLIO</h1>
+                <h2>Audiovisual & multimedia engineer</h2>
+            </div>
+
+           <nav id="menu">
+                <p>MENU</p>
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </nav> 
+        </section>
+    </header>
+
+    <main id="maindesc">
+        <section>
+            <H2>INFITEMS</H2>
+            <H3>Generation of Dynamic Items by Artificial Intelligence in Minecraft</H3>
+        </section>
+        <div id="description">
+            <article>
+                <div>
+                    <p>
+                        In this project, I developed a Minecraft mod capable of dynamically generating custom items using data from several neural network. The goal was to allow players to create unique items, enriched with personalized data, without having to pre-register them in the game. This technical challenge allowed me to create a java algorithm for create a Minecraft mod </p>  </div>
+
+                <img src="emeraldpickaxe.png"></img>
+            </article>
+
+            <article>
+                <img src="pythonscript.png"></img>
+                <div>
+                    <p>
+                        The algorithm works as follows:
+                    <ul>
+                        <li>
+                            The player inputs two items through an in-game command (later, a more integrated system will be developed).
+                        </li>
+                        <li>
+                            A Java script sends the request to a Python script that hosts both an LMM model and a GAN model. The LMM model generates a name for the new item and, based on this name, determines its category (weapon, armor, food, etc.). Then, the GAN model uses the name along with several prompts to generate a sprite that visually fits the item.
+                        </li>
+                        <li>
+                            All outputs from the Python script are sent via PHP to a specific page on my portfolio website. The Java mod then retrieves these elements and reintegrates them into the game as a newly generated item.
+                        </li>
+                    </ul>
+                    </p>
+                    
+                </div>
+            
+            </article>
+
+            <article>
+                
+                <div>
+                    <p>
+                        This project allowed me to discover Java, particularly with the Fabric modding framework for Minecraft. It also taught me how to deploy and interact with Python scripts over the internet, managing data flow between different technologies and ensuring proper communication between game client and Server.
+                    </p>
+                    
+                </div>
+
+                <img src="Java_Logo.png"></img>
+            
+            </article>
+
+            <article>
+                <img src="endercake.png"></img>
+                
+                <div>
+                    <p>
+                        One of the biggest challenges was managing dynamic content integration within Minecraft, which is naturally limited by its static item registration system. As of now, I have not fully completed the integration back into the game, but the entire pipeline from taking two input items, generating a name and a sprite, and creating a final new item outside of Minecraft is fully functional. You can find the github projet of Infitems at the following link : <a target="blank" href="https://github.com/Crodaliox/MinecraftItemGenerator">https://github.com/Crodaliox/MinecraftItemGenerator</a>
+                    </p>
+
+                    
+                </div>
+            
+            </article>        
+
+        
+    </main>
+    <!-- FOOTER -->
+    <footer>
+
+        <ul>
+    
+            <li>
+    
+                <a href="https://www.instagram.com/etiennejulienphotography/?hl=fr" target="_blank"> <img src="../img/FOOTER/instagram1.png" title="instagram" alt="instagram e.t jul"> </img>
+    
+                </a>
+    
+            </li>
+    
+            <li>
+    
+                <a href="https://www.linkedin.com/in/etienne-julien-728a951bb/" target="_blank"> <img src="../img/FOOTER/linkedin.png" title="linkedin" alt="linkedin etienne julien portfolio"> </img>
+    
+                </a>
+    
+            </li>
+    
+            <li>
+    
+                <a href="mailto:etienne.etiennejulien@gmail.com" target="_blank"> <img src="../img/FOOTER/mail1.png" title="mail" alt="mail etienne.etiennejulien@gmail.com"> </img>
+    
+                </a>
+    
+            </li>
+    
+    
+    
+        </ul>
+    
+    
+    
+            <p> © Copyright 2021-2024 <span id='·'>·</span> <span>Étienne Julien</span> </p>
+    
+    </footer>
+
+</body>
+
+<script
+			  src="https://code.jquery.com/jquery-3.7.1.js"
+			  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+			  crossorigin="anonymous">
+</script>
+
+<script
+			  src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"
+			  integrity="sha256-u0L8aA6Ev3bY2HI4y0CAyr9H8FRWgX4hZ9+K7C2nzdc="
+			  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="../projects.js">
+</script>
+</html>

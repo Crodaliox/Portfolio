@@ -1,0 +1,171 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	font-family: Century gothic, Elephant, Matura MT Script Capitals, Comic Sans MS;
+	background-image:url("fond7.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+h1 {
+  color: white;
+}
+
+nav{
+	width:80%;
+	position: fixed;
+	top: 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	text-align: center;
+	border: 5px ridge;
+	border-color: #870000;
+	border-top: white;
+	left:10%;
+	border-radius: 60px;
+	background-color: black;
+	font-size: 100%;
+}
+
+nav li{
+color:#870000;
+display:inline-block;
+	
+}
+
+nav a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover, a:active {
+	color: red;
+  text-decoration: none;
+}
+
+nav img{
+	width: 50px;
+}
+
+.imgnavgauche{
+	float:left;
+	margin-left: 20px;
+}
+.imgnavdroite{
+	float:right;
+	margin-right: 20px;
+}
+header{
+	margin-top:7%;
+	text-align:center;
+}
+
+header h1{
+	text-decoration:underline red;
+	padding:20px;
+}
+
+header p{
+	color:white;
+}
+
+
+section{
+	text-align:center;
+}
+
+section a{
+ color:transparent;
+}
+
+#mail div:hover {
+	border:red ridge 3px;
+	background-color:black;
+}
+#reseaux div:hover {
+	border:red ridge 3px;
+	background-color:black;
+}
+
+#mail{
+	margin-top:50px;
+	color:white;
+	margin-bottom:50px;
+}
+
+#mail div{
+	margin:30px;
+	display:inline-block;
+	width:100px;
+	height:100px;
+	background-color:red;
+	border-radius:20px;
+	border:white ridge 3px;
+}
+
+#mail img{
+	padding-top:10px;
+	height:80px;
+}
+
+#reseaux div{
+	display:inline-block;
+	margin:30px;
+	background-color:red;
+	border:white ridge 3px;
+	border-radius:20px;
+	width:80px;
+	height:80px;
+}
+
+#reseaux img{
+	padding-top:17px;
+	height:55px;
+	vertical-align:middle;
+}
+
+footer {
+	margin-top:250px;
+	height:100px;
+	background-color: #870000;
+	padding-left:30px;
+}
+
+footer ul li img{
+	height:30px;
+}
+
+footer ul li{
+	display:inline-block;
+	opacity:0.7;
+	padding-top:35px;
+	padding-left:20px;
+}
+
+footer ul p {
+	color:white;
+	float:right;
+	padding-top:40px;
+	padding-right:8%;
+	text-align:right;
+}
+
+footer li:hover, a:active {
+	opacity:1;
+  text-decoration: none;
+} 
+
+a:link, a:visited {
+  text-decoration: none;
+}
+a:hover, a:active {
+  text-decoration: none;
+}
+  
+  
+  
+  

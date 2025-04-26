@@ -1,0 +1,560 @@
+@font-face{
+    font-family: "segoeuiVar";
+
+    src: url("font/SegUIVar.woff2") format("woff2");
+}
+
+html{
+    box-sizing: border-box;
+    font-family: 'segoeuiVar';
+    background-color: black;
+}
+h1,h2,p{
+    margin:0;
+    padding: 0;
+}
+body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    /* border:2px red solid; */
+    
+}
+
+#background{
+    position: absolute;
+    width: 100vw;
+    background-image: url("img/lauracraft.jpg");
+    background-size:cover;
+    opacity:0.5;
+    z-index: 1;
+}
+
+header section{
+    /* border:2px yellow solid; */
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 3vw;
+    padding-right: 3vw;
+    
+
+    height: 30vh;
+    z-index: 999;
+}
+
+header section div{
+    /* border:2px blue solid; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header section h1{
+    
+    font-size: 3em;
+    color:white;
+    text-shadow: 1px 1px 0px black;
+    /* border:2px purple solid; */
+    z-index: 999;
+}
+
+header section h2{
+    color:white;
+    text-shadow: 1px 1px 0px black;
+    /* border:2px purple solid; */
+    z-index: 999;
+}
+
+header section nav{
+    color:white;
+    font-weight:600;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    
+}
+button{
+    background-color: rgb(31, 31, 31);
+    width: 25vw;
+    height: 7vh;
+    color:white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border:2px transparent solid;
+    transition:0.2s;
+}
+article a{
+    font-style: italic;
+}
+article a:hover{
+    text-decoration: underline;
+}
+
+button:hover{
+    background-color:white;
+
+    color:black;
+
+    border-color: black;
+
+    font-weight: bold;
+
+    cursor:pointer;
+}
+
+/* menu deployed */
+#deployedmenu{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index:99999;
+    color:white;
+
+   display:none;
+}
+
+#deployedmenu span{
+    position:absolute;
+   top:14vh;
+   left:95vw;
+}
+
+#deployedmenu section{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#deployedmenu aside{
+    font-size:3em;
+}
+
+footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-evenly;
+
+    text-align: center;
+
+    height: 25vh;
+
+    background-color: black;
+
+
+
+}
+
+footer a {
+    padding: 0;
+    margin:0;
+}
+
+
+footer ul {
+    padding: 0;
+    margin:0;
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+
+footer ul li {
+    padding: 0;
+    margin:0;
+    align-items: center;
+
+    opacity: 0.4;
+
+    transition: 0.4s;
+
+    width: 5vw;
+
+}
+
+
+
+footer ul li:hover {
+
+
+
+    opacity: 1;
+
+    transition: 0.4s;
+
+
+
+}
+
+
+
+footer ul li img {
+
+
+
+    height: 1vw;
+
+}
+
+
+
+
+
+footer p {
+
+    margin: 0;
+
+    padding: 0;
+
+    opacity: 1;
+
+    color: grey;
+    
+
+}
+
+
+
+footer span {
+
+    color: white;
+
+    opacity: 1;
+
+}
+
+
+
+#· {
+
+    color: rgb(165, 0, 0);
+
+    opacity: 1;
+
+    font-weight: bold;
+
+}
+
+/* projects */
+
+main section{
+    display: flex;
+    color:white;
+    width: 100vw;
+    font-size:4em;
+    align-items: center;
+    justify-content: center;
+}
+
+#gallery{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4vh;
+    font-size:1em;
+    width: 100vw;
+    background-color: white;
+    color:black;
+    justify-content: flex-start;
+    
+}
+
+
+
+#gallery header{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gallery ul {
+    margin:0;
+    margin-top: 2vh;
+    padding: 0;
+
+    width: 35vw;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#gallery li{
+    background-color: rgb(31, 31, 31);
+    color:white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border:2px transparent solid;
+    transition:0.2s;
+}
+
+
+#gallery li:hover{
+    background-color:white;
+
+    color:black;
+
+    border-color: black;
+
+    font-weight: bold;
+
+    cursor:pointer;
+}
+
+#gallery article{
+    margin-top: 4vh;
+    width: 80vw;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#gallery article a div{
+    width: 17vw;
+    height: 17vw;
+    margin-bottom: 5vh;
+    background-size: cover;
+    background-position: center;
+    border : 2px rgb(31, 31, 31) solid;
+    box-shadow: 0px 0px 5px rgb(84, 84, 84);
+
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    z-index: 99;
+    color:black;
+}
+
+#gallery article a div p, #gallery article a div h3{
+    display: none;
+    text-align: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.desc{
+    color:gray;
+    font-style: italic;
+}
+
+#mons{
+    background-image: url("projects/mons.jpg");
+}
+
+#infitems{
+    background-image: url("projects/emeraldpickaxe.png");
+    
+}
+
+#windingPath{
+    background-image: url("projects/winding.png");
+    
+}
+
+#TF1{
+    background-image: url("projects/tf1.webp");
+}
+
+#gameoflife{
+    background-image: url("projects/gameoflife.png");
+}
+
+#europe{
+    background-image: url("projects/circuit.jpg");
+}
+
+#FTS{
+    background-image: url("projects/fts.png");
+}
+
+#creathon{
+    background-image: url("projects/creathon.jpg");
+}
+
+#lauracraft{
+    background-image: url("projects/lauracraft.jpg");
+}
+
+#poulpe{
+    background-image: url("projects/poulpe.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#carimersive{
+    background-image: url("projects/socle.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#AIProject{
+    background-image: url("projects/mninst.png");
+}
+
+/* lien projets */
+
+#maindesc section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#maindesc h3{
+    font-size: 0.5em;
+}
+#description{
+    background-color: white;
+    padding-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#description article{
+    padding-top:5vh;
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+
+#description li{
+    margin-bottom: 2vh;
+}
+
+#description article img{
+    max-height: 25vw;
+    max-width: 25vw;
+}
+
+#description img{
+    max-width: 70vw;
+}
+
+#description article div{
+    width: 40vw;
+}
+#description a{
+    color:black
+}
+/* Lien */
+
+
+#gallery article div:hover{
+    background-image: none;
+    box-shadow: 0px,0px,0px;
+    transition: 0.4s;
+}
+
+
+#menu:hover{
+    cursor:pointer;
+    font-weight: bold;
+}
+
+#deployedmenu span:hover{
+    cursor:pointer;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#deployedmenu h2:hover{
+    text-decoration: underline;
+    transition: 2s;
+}
+
+
+@media (orientation:portrait) {
+    #deployedmenu section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #deployedmenu aside{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    #deployedmenu article{
+        display: none;
+    }
+
+    #deployedmenu span{
+        position:absolute;
+       top:5vh;
+       left:45vw;
+       font-size: 10vw;
+    }
+
+
+    header section h1{
+        font-size:3vw;
+
+    }
+
+    header section h2{
+        display: none;
+    }
+
+    #gallery article a div{
+        width: 50vw;
+        height:50vw;
+    }
+
+    main section {
+        font-size: 5vw;
+    }
+
+   #gallery ul{
+        width: 100vw;
+    }
+
+    #description article{
+        flex-direction: column;
+    }
+
+    #description img{
+        max-height: 75vw;
+        max-width: 75vw;
+    }
+
+    #description article div{
+        width: 90vw;
+    }
+}
